@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+#nombre{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border-color: blue;
+    margin-top: 20px;
+    border-radius: 5px; /*cuadrar bordes*/
+    border-width: 1px;  
+}
+#password{
+    width: 70%;
+    height: 100 px;
+    font-size: 20px;
+    border-color: steelblue;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+label {
+    margin-top: 0px 10px;
+}
+button {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    background-color: steelblue;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: cadetblue;
+    cursor: pointer; /*cambia el puntero a manita*/
+}
+
+.siVisible{
+    color: brown;
+    font-size: 15px;
+}
+
+.noVisible{
+    display: none;
+}

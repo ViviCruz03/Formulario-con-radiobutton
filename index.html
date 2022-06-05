@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <form action="" method="get" id="formulario">
+        <div>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"><span id="errorNombre" class="noVisible">Escribe tu nombre</span>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password"><span id="errorPassword" class="noVisible">Escribe tu password</span>
+        </div>
+        <div>
+            <br><b><label>¿Cuál es tu team de agua?</label></b> <br>
+                <input type="radio" name="option" id="radio1" value="Jamaica">Jamaica <br>
+                <input type="radio" name="option" id="radio2" value="Horchata">Horchata <br>
+                <input type="radio" name="option" id="radio3" value="Limon">Limon <br>
+                <span id="noAguas" class="noVisible"> Selecciona una respuesta</span>
+        </div>
+        <div>
+            <br><b><label>¿Cúal es tu comida fav?</label></b> <br>
+                <input type="radio" name="optionCb" id="radio1" value="Tacos">Tacos <br>
+                <input type="radio" name="optionCb" id="radio2" value="Pizza">Pizza <br>
+                <input type="radio" name="optionCb" id="radio3" value="Quesadillas">Quesadillas <br>
+                <span id="noComida" class="noVisible"> Selecciona una respuesta</span>
+        </div>
+        <div>
+            <button type="submit">Enviar datos</button>
+        </div>
+    </form>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
